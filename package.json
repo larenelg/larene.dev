@@ -1,0 +1,20 @@
+{
+  "name": "larene.dev",
+  "version": "1.0.0",
+  "description": "of COURSE she bought a .dev domain 🙄",
+  "scripts": {
+    "build": "rm -rf _site && npx eleventy",
+    "watch": "npx eleventy --watch",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "author": {
+    "name": "Larene Le Gassick",
+    "email": "larene.dev@gmail.com",
+    "url": "https://www.larene.dev"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.7.1"
+  }
+}
