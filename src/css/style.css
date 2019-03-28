@@ -40,6 +40,7 @@ a:focus     {
     background: #ff2d95;
     outline: 4px solid #FF2D95;
     outline-offset: 0;
+    color: white;
 }
 
 a.attention-seeker {
@@ -47,7 +48,10 @@ a.attention-seeker {
     font-size: 24px;
     margin-left: 4px;
     margin-right: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
+
 
 h1 {
     font-family: 'Work Sans', Arial, Helvetica, sans-serif;
@@ -83,7 +87,8 @@ h1 {
     font-family: 'Work Sans', Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 24px;
-    padding: 8px;
+    margin: 6px;
+    padding: 2px;
 }
 
 #global-header #logo:focus {
