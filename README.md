@@ -2,7 +2,7 @@
 
 # Local dev
 
-This static site's foundation is using (11ty)[https://www.11ty.io/] 
+This static site's foundation is using [11ty](https://www.11ty.io/)
 
 To run locally:
 
