@@ -1,5 +1,134 @@
 @import 'fonts.css';
 
+div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, div, h1, h2, h3, h4, h5, h6, article, aside, footer, header, hgroup, nav, section {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background: white;
+    color: #0b0c0c;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: inherit;
+}
+
+a:focus     {
+    background: #ff2d95;
+    outline: 4px solid #FF2D95;
+    outline-offset: 0;
+}
+
+a.attention-seeker {
+    outline: 4px solid #FF2D95;
+    font-size: 24px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
 h1 {
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+#skiplink-container {
+    text-align: center;
+    background: #0b0c0c;
+    height: 0px;
+}
+
+#skiplink-container a {
+    color: #0b0c0c;
+}
+
+#global-header {
+    background-color: #0b0c0c;
+    width: 100%;
+}
+
+#global-header .header-wrapper {
+    background-color: #0b0c0c;
+    max-width: 990px;
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#global-header #logo {
+    color: white;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 8px;
+}
+
+#global-header #logo:focus {
+    color: white;
+    background: transparent;
+}
+
+#navigation {
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#navigation ul {
+    list-style-type: none;
+}
+
+#navigation .nav-item {
+    padding-left: 24px;
+    padding-right: 8px;
+    text-transform: lowercase;
+}
+
+#navigation a {
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+#content {
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+#content p {
+    padding-top: 8px;
+    padding-bottom: 8px;
 }

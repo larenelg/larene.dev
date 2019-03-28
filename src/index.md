@@ -3,6 +3,6 @@ layout: layout.liquid
 pageTitle: Dog
 ---
 
-# Hello yes
+# Engineering diversity and inclusion
 
-This is dog. I have no idea what I'm doing
+I specialise in building <a class="attention-seeker" href="#" title="Learn more about digital accessibility">web accessibility</a> into software teams and organisations, from small-to-medium business, to startups, to large enterprises.

@@ -1,13 +1,39 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>{{ pageTitle }}</title>
-        <link type="text/css" href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <h1>{{ pageTitle }}</h1>
 
+<head>
+    <meta charset="utf-8">
+    <title>{{ pageTitle }}</title>
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="skiplink-container" tabindex="-1">
+        <div>
+            <a href="#content" class="skiplink">Skip to main content</a>
+        </div>
+    </div>
+
+    <header role="banner" id="global-header">
+        <div class="header-wrapper flex-container align-center">
+            <div>
+                <a href="/" title="Go to larene.dev homepage" id="logo">larene.dev</a>
+            </div>
+            <nav id="navigation">
+                <ul class="flex-container">
+                    <li class="nav-item"><a href="#">Consulting</a></li>
+                    <li class="nav-item"><a href="#">Speaking</a></li>
+                    <li class="nav-item"><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="content">
         {{ content }}
-    </body>
+    </main>
+
+</body>
+
 </html>
