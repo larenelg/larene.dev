@@ -34,6 +34,21 @@
         {{ content }}
     </main>
 
+    <script>
+        function loadCSS(filename)
+        {
+            var fileRef = document.createElement("link");
+            fileRef.setAttribute("rel", "stylesheet");
+            fileRef.setAttribute("type", "text/css");
+            fileRef.setAttribute("href", filename);
+
+            document.getElementsByTagName("head")[0].appendChild(fileRef);
+            console.log("loaded");
+        }
+
+        loadCSS("/css/fonts.css");
+    </script>
+
 </body>
 
 </html>
